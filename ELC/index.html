@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Excel Learning Centre</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<style>
+
+ .jumbotron{
+    background-color: #4fc1e9;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: "arial black";
+    text-shadow: 1px 1px 1px #434a45;
+    box-shadow: 10px 10px 10px rgba(0,0,0, .3);
+  }
+  
+  .navbar {
+      margin-bottom: 0;
+      background-color: #fff;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 2px;
+      border-radius: 0;
+  }
+
+  /* Add a blue color to all navbar links */
+  .navbar li a, .navbar .navbar-brand { 
+      color: #4fc1e9 !important;
+  }
+
+  /* On hover, the links will turn black */
+  .navbar-nav li a:hover {
+      color: #434a45 !important;
+  }
+
+  .navbar-brand a:hover{
+    color: #434145 !important;
+  }
+
+  .navbar-right{
+    margin: auto;
+  }
+
+  .bkc-blue {
+    background-color: #4fc1e9;
+    color: #fff;
+    font-family: "arial black";
+    text-shadow: 1px 1px 1px #434a45;
+    transition: box-shadow 0.5s;
+  }
+
+  .bkc-blue:hover {
+    box-shadow: 5px 1px 40px rgba(0,0,0, .9);
+  }
+
+  .bkc-white {
+    background-color: #fff;
+    color: #4fc1e9;
+    font-family: "arial black";
+  }
+
+  .panel {
+    border: 1px solid #4fc1e9; 
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .9);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid #4fc1e9;
+    background-color: #fff !important;
+    color: #4fc1e9;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #4fc1e9 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: #fff !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #4fc1e9;
+    color: #fff;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+ 
+</style>
+
+</head>
+
+<body id = "myPage" data-spy = "scroll" data-target = ".navbar">
+  <div class="container">
+      <div class="jumbotron text-center" >
+        <h1>EXCEL LEARNING CENTRE</h1> 
+      </div>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+            <a class="navbar-brand" href="#">EXCEL LEARNING CENTRE</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#fees">PRICING</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+      </nav>
+
+     
+        <img class="img-responsive" src="kids.jpg" class="img-rounded"alt="Kids">
+     
+      <div id = "about">
+        <div class="bkc-blue text-center slideanim">
+          <h2>ABOUT</h2>
+          <p>Is your child having difficulties in math? Is your child frustrated? In spite of working hard, is not getting good grades in math? 
+
+    We offer supplemental math education and tutoring program which is flexible enough to cater to your child's needs. This learning program is comprehensive, individualised and much more than just tutoring.
+    We also have "Fast Track" tutoring program for students who want to excel in math and sciences and who aspire for careers in Engineering, Computer Science and Research. 
+     
+    We tutor, motivate and help high school students to get ready for university courses in Mathematics, Physics and Chemistry.
+
+    Math and Science education is absolutely essential for other areas of studies such as Engineering, Computer Science and Physics. It is the foundation for higher education.
+    Excel Learning Center is committed to build this foundation in Mathematics and Sciences. 
+
+    Our formula for success is simple; practice, practice and more practice! We help children learn on their own. We teach them how to learn, how to see patterns and how to remember techniques. Most students find "word problems" very difficult to solve. At Excel Learning Center we show them how to make connections between word problems and math operations. Thus, instead of being afraid, they start enjoying them; taking them as a challenge! 
+    We also coach and tutor students in Essay writing and Creative Writing.
+    All of our tutors hold university degrees in Sciences and are very experienced. They are frendly, patient and supportive.</p>
+        </div>
+      </div>
+
+  <div id = "fees">
+    <div class="bkc-white text-center slideanim">
+      <h2>Pricing</h2>
+      <h4>Affordable and Great Value</h4>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-default text-center slideanim">
+          <div class="panel-heading">
+            <h1>Grade 1-8</h1>
+          </div>
+          <div class="panel-body">
+            <p><strong>One Subject:</strong> $100 per month</p>
+            <p><strong>Two Subjects:</strong> $150 per month</p>
+            <p><strong>Three Subjects:</strong> $200 per month</p>
+            <p><strong>Subjects:</strong> Math, Reading and Writing, Science</p>
+          </div>
+          <div class="panel-footer">
+            <button class="btn btn-lg">Sign Up</button>
+          </div>
+        </div> 
+      </div> 
+      <div class="col-sm-4">
+        <div class="panel panel-default text-center slideanim">
+          <div class="panel-heading">
+            <h1>Grades 9-10</h1>
+          </div>
+          <div class="panel-body">
+            <p><strong>One Subject:</strong> $120 per month</p>
+            <p><strong>Two Subjects:</strong> $240 per month</p>
+            <p><strong>Three Subjects</strong> $280 per month</p>
+            <p><strong>Subjects:</strong> Math, Science, Essay Writing</p>
+          </div>
+          <div class="panel-footer">
+            <button class="btn btn-lg">Sign Up</button>
+          </div>
+        </div> 
+      </div> 
+     <div class="col-sm-4">
+        <div class="panel panel-default text-center slideanim">
+          <div class="panel-heading">
+            <h1>Grades 11-12</h1>
+          </div>
+          <div class="panel-body">
+            <p><strong>One Subject:</strong> $130 per month</p>
+            <p><strong>Two Subject:</strong> $260 per month</p>
+            <p><strong>Three Subjects:</strong> $300 per month</p>
+            <p><strong>Subjects:</strong> Functions, Calculus, Physics, Chemistry</p>
+          </div>
+          <div class="panel-footer">
+            <button class="btn btn-lg">Sign Up</button>
+          </div>
+        </div> 
+      </div> 
+    </div>
+  </div>
+
+  <!-- Set height and width with CSS -->
+  <div id="googleMap" style="height:400px;width:100%;" class = "slideanim"> </div>
+
+  <!-- Add Google Maps -->
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+  <script>
+  var myCenter = new google.maps.LatLng(43.3318471,-80.9129593);
+
+  function initialize() {
+  var mapProp = {
+  center:myCenter,
+  zoom:12,
+  scrollwheel:false,
+  draggable:false,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+  var marker = new google.maps.Marker({
+  position:myCenter,
+  });
+
+  marker.setMap(map);
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+
+  $(document).ready(function(){
+    // Add smooth scrolling to all links in navbar + footer link
+    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+     // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+        });
+      } // End if
+    });
+  })
+
+      $(window).scroll(function() {
+      $(".slideanim").each(function(){
+        var pos = $(this).offset().top;
+
+        var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+      });
+    });
+  </script>
+  </div>
+</body>
+</html>
+
+
